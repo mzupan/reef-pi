@@ -20,7 +20,7 @@ type Capabilities struct {
 }
 
 var DefaultCapabilities = Capabilities{
-	DevMode:       false,
+	DevMode:       true,
 	Dashboard:     true,
 	HealthCheck:   true,
 	Equipments:    true,
